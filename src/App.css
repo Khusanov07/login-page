@@ -1,38 +1,107 @@
-.App {
-  text-align: center;
+body {
+  position: relative;
+  background-image: url(./image/5e675e5402b38.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+select {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  /* background-color: rgb(20, 20, 20);
+  border: solid 2px rgb(20, 20, 20); */
+  background: #0099F7;
+  background: -webkit-linear-gradient(to right, #F11712, #0099F7);
+  background: linear-gradient(to right, #F11712, #0099F7);
+
+  border-radius: 5px;
+  color: whitesmoke;
+  padding: 8px;
+  outline: none;
+
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+option {
+  background-color: rgb(111, 209, 196);
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+
+.Login {
+  position: absolute;
+  right: 100px;
+  border: solid 2px rgb(20, 20, 20);
+  width: 400px;
+  margin: 100px auto;
+  border-start-end-radius: 50px;
+  border-end-start-radius: 50px;
+  background-color: rgb(29, 19, 19);
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+input {
+  display: block;
+  width: 250px;
+  margin: 30px auto;
+  padding: 10px;
+  border-radius: 10px;
+  border: solid 1px cyan;
+  background: rgb(29, 19, 19);
+  color: rgba(255, 255, 255, 0.5);
+  outline: none;
+}
+
+input::placeholder {
+  color: rgba(255, 255, 255, 0.5);
+  padding-left: 10px;
+
+}
+
+p {
+  margin-top: 20px;
+  color: rgba(255, 255, 255, 0.5);
+  text-align: center;
+}
+
+h1 {
+
+
+  color: cyan;
+  text-align: center;
+  width: 500px;
+  line-height: 30px;
+  position: absolute;
+  left: 30px;
+  top: 200px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 100px;
+  /* color: whitesmoke; */
+
+}
+
+h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Space Mono';
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 40px;
+  color: whitesmoke;
+}
+
+button {
+  display: block;
+  margin: 40px auto;
+  border: solid 2px cyan;
+  padding: 5px 15px;
+  border-radius: 5px;
+  color: whitesmoke;
+  background-color: rgb(29, 19, 19);
+
 }
